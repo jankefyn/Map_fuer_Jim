@@ -1,0 +1,60 @@
+.map{
+    background-color: #007DB1;
+    color: white;
+    
+    align-content: center;
+}
+.map img{
+    position: top;
+    height: 800px;
+    padding-left: 1550px;
+    width:auto;
+    opacity: 1;
+}
+.map span{
+ position: absolute;
+ width: 15px;
+ height: 15px;
+ border-radius: 50px;
+ top:500px;
+ left: 1600px;
+ background-color:#FFDD00;
+ animation: highlight 1.5s linear infinite;
+}
+@keyframes highlight {
+    100%{
+        transform: scale(3);
+    }  
+}
+.map .marker2{
+    
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    top:220px;
+    left: 1830px;
+}
+.map .marker3{
+    
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    top: 670px;
+    left: 2020px;
+}
+.map .marker4{
+    
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    top:353px;
+    left: 1700px;
+}
+h1{
+    padding-left: 200px;
+}
+p{
+
+    max-width: 500px;
+    padding-left: 200px;
+}
